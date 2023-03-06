@@ -3,6 +3,8 @@ info:
   title: Ejemplo de API
   version: 1.0.0
   description: Una API de ejemplo para demostrar OpenAPI en YAML
+  description:
+    $ref: "../docs/HEXAGONAL_TS.md"
 servers:
   - url: https://api.ejemplo.com/v1
 paths:
