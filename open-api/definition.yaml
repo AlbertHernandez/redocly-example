@@ -9,9 +9,10 @@ servers:
 paths:
   /usuarios:
     get:
-      summary:
-        $ref: "../docs/GET_USERS.md"
+      summary: Obtiene una lista de usuarios
       operationId: obtenerUsuarios
+      x-redoc-markdown:
+        $ref: "../docs/GET_USERS.md"
       responses:
         '200':
           description: Lista de usuarios obtenida con éxito
