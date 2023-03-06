@@ -3,13 +3,14 @@ info:
   title: Ejemplo de API
   version: 1.0.0
   description:
-    $ref: "../docs/HEXAGONAL_TS.md"
+    $ref: "../docs/WELCOME.md"
 servers:
   - url: https://api.ejemplo.com/v1
 paths:
   /usuarios:
     get:
-      summary: Obtiene una lista de usuarios
+      summary:
+        $ref: "../docs/GET_USERS.md"
       operationId: obtenerUsuarios
       responses:
         '200':
